@@ -1,0 +1,38 @@
+Assigment Instructions:
+
+The objective of this exercise is to evaluate the performance of a Transformers-based model using the Hugging Face library on the IMDb movie review dataset for sentiment classification.
+
+Dataset: The IMDb dataset consists of 50,000 movie reviews, with an equal number of positive and negative reviews. It is commonly used for sentiment analysis tasks. You can download the dataset from the following link: http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
+
+Instructions:
+
+Step 1: Prepare the Data
+
+->Extract the downloaded dataset and load the training and testing data into appropriate data structures.
+->Preprocess the data as required, which may include tokenization, padding, or any other necessary steps.
+
+Step 2: Select and Load a Pre-trained Model
+
+->Choose a pre-trained Transformers-based model suitable for text classification, such as BERT or RoBERTa.
+->Load the pre-trained model using the Hugging Face library.
+
+Step 3: Fine-tune the Model
+
+->Define the appropriate architecture and layers for fine-tuning the pre-trained model.
+->Fine-tune the model on the IMDb dataset by training it on the training data.
+->Adjust the hyperparameters as needed, including the learning rate and batch size. Do a CV for various parameters of the model.
+
+Step 4: Evaluate the Model
+
+->Use the fine-tuned model to make predictions on the testing data.
+->Calculate the accuracy, precision, recall, and F1-score of the model's predictions.
+->Use appropriate evaluation metrics based on the nature of the classification task.
+
+Additional Notes:
+
+->You can refer to the Hugging Face documentation for guidance on using their library and working with Transformers models: https://huggingface.co/transformers/Links to an external site.
+->Make sure to handle any necessary data preprocessing, such as cleaning or normalizing the text, before feeding it into the model.
+->It is recommended to use a GPU if available to speed up the training process.
+->Feel free to explore and experiment beyond the provided instructions to gain a deeper understanding of Transformers-based models and their applications.
+
+Source of Data: http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz

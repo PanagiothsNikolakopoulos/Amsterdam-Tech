@@ -1,0 +1,17 @@
+Assigment Instructions:
+
+Unsupervised learning is very useful in the domain of customer segmentation and understanding, among others. Often we have data about customers’ behavior, purchasing habits and website visits and we want 
+to draw insights
+ from the data, so that we can optimize our marketing strategies and ultimately, increase conversion.
+
+In this assignment, you are asked to work with the ‘Mall customer segmentation data’ from Kaggle.
+
+->Download the data from https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python. Clean the data and perform exploratory steps that you deem appropriate. Remember that it might be important 
+  to normalise the data before you perform clustering.
+-?Perform clustering of the data (K-means or hierarchical clustering; or if you prefer - both). How many clusters are there in the data and why?
+->How will your translate the clusters into business insight? In other words, what advice would you give the mall owner, so that they can design a marketing strategy using your insights.
+There are some particularly good kernels that use this data set, make sure you submit your own work and are not inspired by other people’s solutions.
+
+Submit a Jupyter notebook/python script with your code, and if you want, submit a link to a GitHub repository where you have also stored your code. 
+
+Source of Data: https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python

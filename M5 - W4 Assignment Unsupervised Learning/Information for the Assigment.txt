@@ -1,0 +1,21 @@
+Assigment Instructions:
+
+One of the main applications of unsupervised learning is dimensionality reduction / feature selection.
+ Often it is a step preceding building a supervised learning model with labelled data. Other times, we don’t have a label but still need to perform dimensionality reduction and/or find clusters in the data.
+
+In this assignment, you are asked to work on the Mercedes- Benz Greener Manufacturing challenge from Kaggle. Go to the Kaggle link: https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/overview and download
+ the training and testing data sets.
+
+The data has been anonymised and there is target, called ‘y’ but we will not be training a supervised model in this assignment (you are still free and encouraged to do that for the sake of practice).
+
+->Download, load and clean the data. Do not forget to normalize it.
+->Perform a principle component analysis (PCA). How many components will you choose based on an explained variance    ratio of your choice? Plot the proportion of explained variance and the number of components.
+->One downside of PCA is that it maps all the original features to a lower dimensional space, resulting in less interpretable features. Let’s say we want to use the result of the PCA but still work with the original features.
+  Here is what we can do. Using the selected number of components from 2), find which features of the original data have the highest absolute correlation with each of the components. Select features with absolute correlation 
+  with the PCA components of at least 0,75. How many and which features will you end up with?
+ 
+
+Submit your code as a notebook to Campus.
+
+Source of Data: https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/overview
+

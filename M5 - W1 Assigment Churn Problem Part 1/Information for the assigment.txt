@@ -1,0 +1,16 @@
+Assigment Instructions:
+
+In this first week of the new module, we will be using a Churn problem because it is one of the most pressing issues in different industries. We will be using the following data set: https://www.kaggle.com/blastchar/telco-customer-churn and we'll be using the same data set for next week as well. So the next assignment will build on this one. 
+
+In this first half, we will explore the dataset a bit using most of what we learnt until now and start preparing everything for implementing and testing our models. 
+For this week, consider the following questions. Feel free to answer them via a notebook, where you tell your story using a mix of markdown, code and visualisation. 
+
+Have a quick overview of the features and implement a “cleaning process”. Make sure this part of the code is well organised, if possible make this an object-oriented exercise.
+Explain the process that needs to happen for each feature before you train your model. Also, think about how future observations might be different from the ones you have! Be creative. 
+E.g: You have a gender column that currently holds the values “Male” and “Female”. Is it possible that I receive an observation with “M” or “F”, if so, how do I plan to take care of this? 
+
+Choose one metric to evaluate the different models you will train and explain why you are choosing that instead of other metrics. You can try a few base models but model performance is not of prime importance yet.  
+
+Please upload your work as Jupyter Notebook on Campus.
+
+Source of Data: https://www.kaggle.com/blastchar/telco-customer-churn

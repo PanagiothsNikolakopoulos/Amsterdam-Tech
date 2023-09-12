@@ -1,0 +1,27 @@
+Assigment Instructions:
+
+Data ethics is a critical branch of data science that focuses on the responsible handling, processing, and use of data, particularly regarding respect for privacy, confidentiality, and consent. Data anonymisation, a key method in upholding data ethics, involves the modification of data sets to prevent the identification of individual entities, thereby preserving privacy and confidentiality while still allowing for useful analysis. 
+
+1. The issue of data anonymisation.
+
+Imagine you are a data scientist at an imaginary company, responsible for holding discussions with the regulators regarding your data ethics and anonymisation policy and techniques.
+
+Your task is to create a presentation where you describe:
+
+->How do you treat the issue of potential identification of specific customers?
+->How do you make sure your data/ML procedures are governed by:
+-->Fairness,
+-->Privacy and Security
+-->Transparency
+-->Accountability
+2. Classify a dataset using differential privacy
+
+Fore this task, you will work with the adult dataset, which contains contains demographic information about adults from a 1994 census database. You can find the dataset here.Links to an external site.
+
+->Load the data and perform a basic EDA.
+->Split the data into train-test, and remember to stratify on the response.
+->Create a NaiveBayes classifier and train a model to predict whether an individual makes less or more than 50K.
+->Repeat the above experiment but use the equivalent model form the Diffprivliv libraryLinks to an external site.. Experiment with differnt values of the epsilon parameter (you can treat it as a hyperprameter) 
+->Do you see any difference between the performance of the two models on the test data? Why does this happen? Also, why do we need differential privacy if the performance of the model deteriorates? Provide the appropriate explanations. 
+
+Source of Data: https://archive.ics.uci.edu/dataset/2/adult

@@ -1,0 +1,13 @@
+Assigment Instructions:
+
+This week we continue with where we left off from last week. This week’s job will be pretty straight-forward and it will be Machine Learning-based. Your goal will be to grab the work you have already done and start training a model that is able to predict which customers are more likely to churn.
+
+Select three different models that you would like to test your dataset with. Make sure that at least two of them are tree-based models. 
+
+Explain why you selected these three models. You might want to discuss their peformance, explainability, complexity, etc. 
+
+Based on the metric you have selected in last week’s assignment, make a comparative analysis between the performance of your models. What needs to be fixed when comparing different machine learning models?
+
+Do you believe you have overfitting? Why yes or why not?
+
+Source of Data: https://www.kaggle.com/blastchar/telco-customer-churn

@@ -1,0 +1,31 @@
+Assigment Instructions:
+
+Autoencoders are a type of artificial neural network used for learning efficient codings of input data. They have the ability to compress data and then reconstruct it. They find applications in tasks like anomaly detection, denoising data, and more. Your task is to write the code for your own Autoencoder and experiment with various architectures.
+
+->Load the Fashion MNIST Dataset
+	You can down load the Fashion MNIST dataset using Pytorch using the following code:
+	import torch from torchvision import datasets, transforms
+
+	```# Define a transform to normalize the data
+	transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))])
+
+	# Download and load the training data
+	trainset = datasets.FashionMNIST('~/.pytorch/F_MNIST_data/', download=True, train=True, transform=transform) trainloader = torch.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
+
+	# Download and load the test data
+	testset = datasets.FashionMNIST('~/.pytorch/F_MNIST_data/', download=True, train=False, transform=transform) testloader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=True)```
+
+->Train your own AutoEncoder experimenting with different autoencoder architectures
+  Use the train dataset to train your own AutoEncoder AutoEncoder. Be sure to explore at least 3 different archecture designs (e.g different number of layers/neurons, different activation functions…).
+  During the training, please calculate the loss and the accuracy for each epoch and plot it right after the training face. 
+->Explain the reasoning behind the your AE selection
+  Select one of the architectures you created. Why did you select this specific one? Is this due to simplicity, performance or something else? Do not be afraid to get into details.
+->Create new clothes
+  Use the test data as input to your trained AE to create new clothes. Be sure to plot at least 10 pairs of clothes (input, AE output) along with their corresponding label. 
+Do you see similarities between the inputs and the outputs? Is the AE reasonably trained?
+
+Source of Data :# Download and load the training data
+		  trainset = datasets.FashionMNIST('~/.pytorch/F_MNIST_data/', download=True, train=True, transform=transform) trainloader = torch.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
+
+		# Download and load the test data
+		  testset = datasets.FashionMNIST('~/.pytorch/F_MNIST_data/', download=True, train=False, transform=transform) testloader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=True)
